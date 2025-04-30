@@ -85,6 +85,18 @@ body {
     transition: 0.4s ease;
 }
 
+.sidebar-nav .primary-nav {
+    overflow-y: auto;
+    height: calc(100vh - 204px);
+    padding-bottom: 50px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.sidebar-nav .primary-nav:hover {
+    scrollbar-color: #eef2ff transparent;
+}
+
 .sidebar.collapsed .sidebar-nav .primary-nav {
     transform: translateY(65px);
 }
